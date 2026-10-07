@@ -1,0 +1,19 @@
+body {
+  margin: 30px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.box {
+  width: 500px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 5px;
+  font-size: 15px;
+}

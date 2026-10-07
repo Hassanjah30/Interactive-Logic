@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Do I Need Another Coffee?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Do I Need Another Coffee?</h1>
+
+  <div class="box">
+    <h3>How many coffees have you had today?</h3>
+    <button onclick="setCoffee(0, '0')">0</button>
+    <button onclick="setCoffee(1, '1')">1</button>
+    <button onclick="setCoffee(2, '2')">2</button>
+    <button onclick="setCoffee(3, '3')">3</button>
+    <button onclick="setCoffee(4, '4+')">4+</button>
+    <p>Your answer: <span id="coffeeAnswer">Not answered</span></p>
+  </div>
+
+  <div class="box">
+    <h3>How many hours did you sleep?</h3>
+    <button onclick="setSleep(4, '4 or less')">4 or less</button>
+    <button onclick="setSleep(5, '5')">5</button>
+    <button onclick="setSleep(6, '6')">6</button>
+    <button onclick="setSleep(7, '7')">7</button>
+    <button onclick="setSleep(8, '8 or more')">8 or more</button>
+    <p>Your answer: <span id="sleepAnswer">Not answered</span></p>
+  </div>
+
+  <div class="box">
+    <button onclick="checkCoffee()">Check</button>
+    <button onclick="drinkCoffee()">I just had another coffee</button>
+  </div>
+
+  <div class="box" id="resultBox">
+    <h2 id="resultTitle">Result</h2>
+    <p id="resultMessage">Answer both questions and click Check.</p>
+    <p>Coffees today: <span id="coffeeCount">0</span></p>
+    <p>Times checked: <span id="checkCount">0</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
