@@ -1,0 +1,39 @@
+body {
+  margin: 30px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.box {
+  max-width: 500px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.waiting {
+  background-color: #eeeeee;
+}
+
+.go {
+  background-color: #d4edda;
+  border-color: green;
+}
+
+.maybe {
+  background-color: #fff3cd;
+  border-color: orange;
+}
+
+.stop {
+  background-color: #f8d7da;
+  border-color: red;
+}
